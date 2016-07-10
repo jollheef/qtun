@@ -1,0 +1,17 @@
+[drive]
+  media = "disk"
+  index = "0"
+  file = "wheezy.img"
+
+[device]
+  driver = "e1000"
+  netdev = "net0"
+
+[machine]
+  accel = "kvm"
+  usb = "on"
+  kernel = "/speedup/linux/arch/x86/boot/bzImage"
+  append = "root=/dev/sda console=ttyS0"
+
+[memory]
+  size = "128"

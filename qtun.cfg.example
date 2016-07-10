@@ -1,0 +1,6 @@
+[Network]
+addr = ":8000"
+
+[Qemu]
+config = "/home/mikhail/dev/go/src/github.com/jollheef/qtun/qemu.cfg"
+port = 22
