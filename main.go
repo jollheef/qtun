@@ -120,7 +120,7 @@ func forward(localConn net.Conn, cfg config) {
 
 func main() {
 
-	cfg, err := readConfig("qtun.conf.example")
+	cfg, err := readConfig("qtun.cfg.example")
 	if err != nil {
 		panic(err)
 	}
