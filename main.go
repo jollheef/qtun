@@ -125,7 +125,7 @@ func main() {
 		panic(err)
 	}
 
-	listener, err := net.Listen("tcp", ":8000")
+	listener, err := net.Listen("tcp", cfg.Network.Addr)
 	if err != nil {
 		panic(err)
 	}
